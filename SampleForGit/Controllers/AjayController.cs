@@ -21,7 +21,7 @@ namespace SampleForGit.Controllers
         public AccountController()
         {
 
-            //Develop a code in account controller
+         
 
 
 
