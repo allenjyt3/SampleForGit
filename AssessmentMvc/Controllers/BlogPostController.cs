@@ -82,6 +82,9 @@ namespace AssessmentMvc.Controllers
             SchoolEntities dbContext = new SchoolEntities();
             po.BlogId = Convert.ToInt32(blog);
             dbContext.Posts.Add(po);
+
+
+
             dbContext.SaveChanges();
             return RedirectToAction("PostView");
         }
