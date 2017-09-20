@@ -13,22 +13,23 @@ using SampleForGit.Models;
 namespace SampleForGit.Controllers
 {
     [Authorize]
-    public class AccountController : Controller
+    public class AjayController : Controller
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
         public AccountController()
         {
+
+
+
+
+
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
             UserManager = userManager;
-
-
-
-
             SignInManager = signInManager;
         }
 
